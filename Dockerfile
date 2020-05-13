@@ -5,6 +5,7 @@ RUN pip install --upgrade pip
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y npm
+RUN npm i react-scripts
 
 # install dependencies
 RUN pip install requests
