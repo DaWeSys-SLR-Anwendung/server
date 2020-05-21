@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/home",
+            "lambdaFunction": "helloworldb7a70454",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "slrapi",
+    "apiName": "slrapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "helloworldb7a70454"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-helloworld-dev-200805-authRole",
+        "unAuthRoleName": "amplify-helloworld-dev-200805-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "helloworldb7a70454",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
